@@ -1,0 +1,45 @@
+16/03/2017
+
+warning stock dibawah 5(part), 20(childpart) satuan (pack(childpart),pcs(part))
+
+
+ 
+SIM BENGKEL
+
+jangan pakai view(diganti join tabel)
+laporan per hari(range), per bulan
+
+administarator(kode asset),operator bengkel(part req, lap part req), operator gudang(part order, lap part order part out), user(mencetak WO dan search)
+search(no inv, nama, tgl masuk, target, finish, status)
+upload bukti pembayaran,
+<-------------->
+laporan part order,
+kode part, Nama,tgl order,qty,
+
+part order(bengkel to sup);
+
+nama fajar paper
+alamat Cikarang bekasi, 021-09090909
+
+<Sudah Dikerjakan>
+Kolom Perawatan dan Perbaikan
+kepada default bengkel
+Penambahan divisi(bahan baku, umum)(dinamis)
+status proses(checking,finish,on proses,pending)
+tindakan diganti keterangan,
+target dan finish(datetime),
+penyebab dihapus,
+level user
+
+SIM DP3 (24/3/2017)
+View Penilaian 
+Yang muncul hanya nama pegawai->nilai->menampilakan nilai terakhir
+Opsi pilih diganti nilai
+Periode
+diganti otomatis dengan menggunakan format
+-->16.1 -> 1 September 2016 - 29 Febuari 2017
+-->16.2 -> 1 Maret 2016 - 31 Agustus 2017
+Catatan Penilaian
+nilai bisa turun,kosong
+kolom kepemimpinan hanya dipakai untuk atasan
+Diganti unit, jika ada rotasi pegawai yang keluar adalah nama pegawai data masih tersimpan didalam sistem
